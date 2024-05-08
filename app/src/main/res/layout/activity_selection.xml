@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_basic_monthly_subscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weekly $120"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/btn_premium_monthly_subscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monthly $160"
+        android:layout_below="@id/btn_basic_monthly_subscription"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_basic_yearly_subscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Six month $180"
+        android:layout_below="@id/btn_premium_monthly_subscription"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btn_premium_yearly_subscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yearly $250"
+        android:layout_below="@id/btn_basic_yearly_subscription"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
